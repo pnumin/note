@@ -18,6 +18,9 @@ working directory ----------> staging area ----------> local repository  -------
 (real file work)     |       (changed info      |   (local computer repo:    |      (github repo)
                      |        addition area)    |       .git folder )        |         
 				  git add                  git commit                      git push
+
+		<-----------------------
+				  git reset  		
 				  
 		<------------------------------------------------------------------
 									     | 
@@ -36,3 +39,9 @@ git push
 git rm --cached filename 
 git commit -m "meaage"
 git push 
+
+
+[return to previous status]
+git checkout -- filename 
+
+
