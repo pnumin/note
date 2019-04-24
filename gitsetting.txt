@@ -1,0 +1,25 @@
+1.github login
+  -  https://github.com/ 
+2.create a new repository from github
+3.git clone {https url address}
+  - download from remote repository 
+  - hidden folder created => .git folder created
+4.git add filename or .
+  - add file to repository 
+5. git commit -m "git command summary 1"
+  - log changed status to repository 
+6. git push 
+  - push to remote repository
+7.git pull 
+ - pull content from remote repository
+
+ 
+working directory ----------> staging area ----------> local repository  ----------> remote repository
+(real file work)     |       (changed info      |   (local computer repo:    |      (github repo)
+                     |        addition area)    |       .git folder )        |         
+				  git add                  git commit                      git push
+				  
+		<------------------------------------------------------------------
+									     | 
+									     |
+									  git pull
