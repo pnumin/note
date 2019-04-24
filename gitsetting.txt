@@ -50,9 +50,28 @@ git push -f
 [commit message changed]
 git commit --amend
 
+[branch]
+master branch : basic branch, stable deployable project
+topic branch : functional branch
 
+[branch view]
+git branch
 
+[branch create]
+git branch branch_name
 
+[branch switch]
+git checkout branch_name
 
+[branch merge]
+git checkout master
+git merge branch_name
+git log
+git push
 
+[branch delete]
+git branch -d branch_name
 
+[remote repository check]
+git remote
+git remote show origin
