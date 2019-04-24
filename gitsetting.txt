@@ -23,3 +23,16 @@ working directory ----------> staging area ----------> local repository  -------
 									     | 
 									     |
 									  git pull
+
+									  
+									  
+									  
+[file delete : local and remote]
+git rm filename
+git commit -m "meaage"
+git push 
+
+[file delete : remote only]
+git rm --cached filename 
+git commit -m "meaage"
+git push 
