@@ -40,8 +40,19 @@ git rm --cached filename
 git commit -m "meaage"
 git push 
 
+[commit log view]
+git log
 
 [return to previous status]
-git checkout -- filename 
+git reset --hard {hashcode of log}
+git push -f 
+
+[commit message changed]
+git commit --amend
+
+
+
+
+
 
 
